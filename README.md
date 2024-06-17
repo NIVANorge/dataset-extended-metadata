@@ -18,7 +18,7 @@ A SeaBird thermosalinograph (SBE45) was installed in the FerryBox cabinet. The s
 
 ### Sea Water Oxygen Saturation (unit: ‘%’) 
 
-Measured with oxygen optode (Aanderaa optode 4835), which was periodically checked and calibrated with discrete samples analyzed using Winkler titration.  
+Measured with oxygen optode (before 2022: RBR optode ,after 2022: Aanderaa optode 4835 ), which was periodically checked and calibrated with discrete samples analyzed using Winkler titration.  
 
 <ins>QC tests applied</ins>: Water flow test, GPS quality test, Frozen test,  Range test
  
@@ -42,7 +42,7 @@ A Turner Designs C3 submersible sensor configured with chlorophyll a, coloured d
  
 ## 2. Calibration procedure 
 
-Two step calibration is applied on Fluoremeter measurements (C3 instrument, ) 
+Two step calibration is applied on Fluoremeter measurements (C3 instrument) 
 Master calibration and regional correction factor. The calibration from the Master calibration is transferred using a correction factor between the individual fluorometers used in the field and the calibrated Master instrument. The dark value in the air without any Solid Secondary Standards needs to be subtracted from the secondary standard reading using the formula (i) below. [MINKE deliverable]
  
 ```sensor_adjusted = correction_coef * (raw - blank) * master coef a + master coef b (i)```
