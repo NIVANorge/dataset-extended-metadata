@@ -28,7 +28,7 @@ A Turner Designs C3 submersible sensor configured with chlorophyll a, coloured d
 
 <ins>QC tests applied</ins>: Water flow test, GPS quality test, Frozen test, Range test
 
-### Coloured dissolved organic matter (CDOM) fluorescence (mg/m3) 
+### Coloured dissolved organic matter fluorescence (fDOM) (mg/m3) 
 
 A Turner Designs C3 submersible sensor configured with chlorophyll a, coloured dissolved organic matter (CDOM), and turbidity sensors; excitation 325 nm, emission 470 nm; calibrated using quinine sulfate and periodically validated using Turner Designs solid secondary standards. 
 
@@ -42,8 +42,10 @@ A Turner Designs C3 submersible sensor configured with chlorophyll a, coloured d
  
 ## 2. Calibration procedure 
 
+Two step calibration is applied on Fluoremeter measurements (C3 instrument, ) 
+Master calibration and regional correction factor. The calibration from the Master calibration is transferred using a correction factor between the individual fluorometers used in the field and the calibrated Master instrument. The dark value in the air without any Solid Secondary Standards needs to be subtracted from the secondary standard reading using the formula (i) below. [MINKE deliverable]
  
-Master calibration and solid cal (sensor adjustment) 
+```sensor_adjusted = correction_coef * (raw - blank) * master coef a + master coef b (i)```
 
 ## 3. Quality control procedure 
 
