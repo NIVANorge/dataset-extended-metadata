@@ -18,7 +18,7 @@ A SeaBird thermosalinograph (SBE45) was installed in the FerryBox cabinet. The s
 
 ### Sea Water Oxygen Saturation (unit: ‘%’) 
 
-Measured with oxygen optode (before 2022: RBR optode ,after 2022: Aanderaa optode 4835 ), which was periodically checked and calibrated with discrete samples analyzed using Winkler titration.  
+Measured with oxygen optode (Aanderaa optode 4835), which was periodically checked and calibrated with discrete samples analyzed using Winkler titration.  
 
 <ins>QC tests applied</ins>: Water flow test, GPS quality test, Frozen test,  Range test
  
