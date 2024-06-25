@@ -4,19 +4,19 @@
 
 Sensors were equipped on an underway flow-through system (FerryBox) on ships of opportunity. Clean seawater inlets were custom installed at ∼5 m depth and directly pumped to a sensor package.  
 
-### Sea Water Temperature (unit: 'degree_Celsius' ) 
+### Seawater Temperature (unit: 'degree_Celsius' ) 
 
 A SeaBird digital oceanographic thermometer (SBE38) was installed at the FerryBox inlet, in addition to a SeaBird SBE45 thermosalinograph in the FerryBox cabinet. The temperature sensors were periodically checked and calibrated using a traceable reference thermometer.  
 
 <ins>QC tests applied</ins>: Water flow test, GPS quality test, Frozen test, Range test, Spike test
  
-### Sea Water Salinity (unit: 'PSU' ) 
+### Seawater Salinity (unit: 'PSU' ) 
 
 A SeaBird thermosalinograph (SBE45) was installed in the FerryBox cabinet. The salinity sensor was periodically checked and calibrated using discrete salinity samples measured using a laboratory salinometer (Portasal). 
 
 <ins>QC tests applied</ins>: Water flow test, GPS quality test, Frozen test, Range test, Spike test
 
-### Sea Water Oxygen Saturation (unit: ‘%’) 
+### Seawater Oxygen Saturation (unit: ‘%’) 
 
 Measured with oxygen optode (Aanderaa optode 4835), which was periodically checked and calibrated with discrete samples analyzed using Winkler titration.  
 
